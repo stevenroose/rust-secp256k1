@@ -1,6 +1,6 @@
 use core::marker::PhantomData;
 use ffi::{self, CPtr};
-use types::{c_uint, c_void};
+use ffi::types::{c_uint, c_void};
 use Error;
 use Secp256k1;
 

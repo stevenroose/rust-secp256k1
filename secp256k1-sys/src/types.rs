@@ -24,3 +24,4 @@ impl fmt::Debug for c_void {
         f.pad("c_void")
     }
 }
+
