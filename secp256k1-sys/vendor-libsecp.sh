@@ -26,7 +26,7 @@ done
 
 cd "$PARENT_DIR" || exit 1
 rm -rf "$DIR"
-git clone git@github.com:bitcoin-core/secp256k1.git "$DIR"
+git clone https://github.com/rust-bitcoin/rust-secp256k1.git "$DIR"
 cd "$DIR"
 if [ -n "$REV" ]; then
     git checkout "$REV"
